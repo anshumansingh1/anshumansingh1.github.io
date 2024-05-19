@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Anshuman Singh</title>
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div id="left-side" class="side">
+        <h2 class="title">
+            Hey, How are you...? I'm
+            <span class="fancy">Anshuman Singh</span>
+        </h2>
+    </div>
+    <div id="right-side" class="side">
+        <h2 class="title">
+            Just testing github pages here.
+            <br>
+            Will be updating it with a real website soon.
+            <span class="fancy-alt">
+            <br>
+            Thank you for your time :)
+            </span>
+        </h2>
+    </div>
+
+</body>
+
+</html>
+
+<script>
+    const left = document.getElementById("left-side");
+
+    const handleMove = e => {
+        left.style.width = `${e.clientX / window.innerWidth * 100}%`;
+    }
+
+    document.onmousemove = e => handleMove(e);
+
+    document.ontouchmove = e => handleMove(e.touches[0]);
+</script>
