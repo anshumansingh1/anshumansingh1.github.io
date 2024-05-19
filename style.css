@@ -27,6 +27,8 @@ body {
     place-items: center;
     position: absolute;
     width: 100%;
+
+    text-align: center;
 }
 
 .side .title {
@@ -46,7 +48,7 @@ body {
 .side .fancy-alt {
     font-family: "Pacifico";
     font-size: 1em;
-    line-height: 0.6em;
+    line-height: 0.8em;
 }
 
 #left-side {
