@@ -7,9 +7,6 @@ Link: [https://anshumansingh1.github.io/](https://anshumansingh1.github.io/)
 > [!IMPORTANT]
 > Actual site development yet to start.
 
-> [!NOTE]
-> This is the ADDA DA-5
-
 ## Steps to create a new jekyll project
 1) Install Jekyll: `gem install jekyll bundler`
 2) Check Jekyll version: `jekyll --version`
