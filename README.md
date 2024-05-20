@@ -1,6 +1,8 @@
-# anshumansingh1.github.io
+# Anshuman Singh
 
-made using github pages
+[![pages-build-deployment](https://github.com/anshumansingh1/anshumansingh1.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/anshumansingh1/anshumansingh1.github.io/actions/workflows/pages/pages-build-deployment)
+
+### Made with passion using github pages
 
 Link: [https://anshumansingh1.github.io/](https://anshumansingh1.github.io/)
 
