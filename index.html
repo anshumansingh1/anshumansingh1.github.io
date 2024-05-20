@@ -32,6 +32,7 @@
 
 <script>
     const left = document.getElementById("left-side");
+    left.style.width = `100%`;
 
     const handleMove = e => {
         left.style.width = `${e.clientX / window.innerWidth * 100}%`;
